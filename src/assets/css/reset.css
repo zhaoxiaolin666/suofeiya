@@ -1,0 +1,150 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+ul {
+    list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+    height: auto;
+    max-width: 100%
+}
+
+iframe {
+    border: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 15px 6px;
+    text-align: left
+}
+
+.addStyle {
+    color: #d12c2c;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+table,
+th,
+td {
+    border: 1PX solid rgb(200, 200, 200);
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+input::-webkit-input-placeholder {
+    color: #666;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #666;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #666;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #666;
+}
+
+input {
+    width: 42vw;
+    border: none;
+    outline: none;
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 10px;
+}
+
+select {
+    width: 42vw;
+    border: none;
+    outline: none;
+    height: 70px;
+    line-height: 70px;
+    background: #efedee;
+    border-radius: 10px;
+    color: #666;
+    padding-left: 10px;
+    font-size: 28px;
+    margin: 0 10px;
+}
